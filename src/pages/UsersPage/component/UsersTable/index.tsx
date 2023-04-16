@@ -28,7 +28,7 @@ const UsersTable: React.FC<UsersTableProps> = () => {
           </tr>
         </thead>
         <tbody>
-          {model.users.map((item) => (
+          {model.users?.map((item) => (
             <tr key={item._id}>
               <td className={styles.cell}>{item._id}</td>
               <td className={styles.cell}>{item.email}</td>
