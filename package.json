@@ -4,9 +4,6 @@
   "private": true,
   "dependencies": {
     "@hookform/resolvers": "^3.1.0",
-    "@testing-library/jest-dom": "^5.16.5",
-    "@testing-library/react": "^13.4.0",
-    "@testing-library/user-event": "^13.5.0",
     "exceljs": "^4.3.0",
     "fs": "0.0.1-security",
     "history": "~4.10.1",
@@ -24,6 +21,9 @@
     "yup": "^1.1.0"
   },
   "devDependencies": {
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
     "@types/jest": "^27.5.2",
     "@types/node": "^16.18.23",
     "@types/react": "^18.0.35",
