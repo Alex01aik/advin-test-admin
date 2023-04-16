@@ -1,0 +1,33 @@
+.root{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.exportButton{
+    margin-left: auto;
+    width: fit-content;
+}
+
+.table{
+    width: fit-content;
+    border-collapse: collapse;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.table tr{
+}
+
+.cell{
+    padding: 8px 12px;
+    text-align: center;
+}
+
+.pagination{
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 24px;
+}

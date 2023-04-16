@@ -1,0 +1,89 @@
+/* Reset default styles for all HTML elements */
+html,
+body,
+div,
+span,
+app,
+article,
+aside,
+footer,
+header,
+nav,
+section,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+li,
+a,
+button {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  box-sizing: border-box;
+}
+
+/* Global styles */
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  height: 100%;
+  width: 100%;
+  background-color: #f5f5f5;
+  font-family: 'Roboto', sans-serif;
+  color: #333333;
+}
+
+#root{
+  height: 100%;
+  width: 100%;
+}
+
+/* Styles for specific components */
+a {
+  color: #0077cc;
+  text-decoration: none;
+}
+
+button {
+  background-color: #0077cc;
+  color: #ffffff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+button[disabled] {
+  background-color: lightgray;
+  color: darkgray;
+  cursor: not-allowed;
+}
+
+table {
+  margin: 0;
+  padding: 0;
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* Media queries */
+@media (max-width: 768px) {
+  body {
+    font-size: 14px;
+  }
+}

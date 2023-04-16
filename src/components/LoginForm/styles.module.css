@@ -1,0 +1,33 @@
+.form{
+    display: flex;
+    flex-direction: column;
+    width: 320px;
+    margin: auto;
+    gap: 8px;
+}
+
+.inputBlock{
+    display: flex;
+    flex-direction: column;
+}
+
+.input{
+    border: 0;
+    border-radius: 4px;
+    padding: 10px 20px;
+}
+
+.error{
+    color: crimson;
+}
+
+.redirectButton{
+    width: 100%;
+    background-color: gainsboro;
+    color: #0077cc;
+}
+
+.label{
+    margin: auto;
+    font-size: large;
+}
