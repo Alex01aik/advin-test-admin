@@ -1,4 +1,4 @@
-import { createBrowserHistory, History } from 'history';
+import { createBrowserHistory, History } from "history";
 
 class HistoryService {
   readonly history: History;
