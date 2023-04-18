@@ -25,7 +25,6 @@ class UsersTableModel {
 
   nextPage = async () => {
     this.page++;
-    console.log("this.page", this.page);
     this.users = await query(`user/findMany?page=${this.page}`);
   };
 
@@ -33,7 +32,6 @@ class UsersTableModel {
     if (this.page > 1) {
       this.page--;
     }
-    console.log("this.page", this.page);
     this.users = await query(`user/findMany?page=${this.page}`);
   };
 
